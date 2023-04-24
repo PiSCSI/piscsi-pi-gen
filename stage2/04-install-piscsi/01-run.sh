@@ -28,6 +28,6 @@ echo "export GITHUB_REF=$GITHUB_REF"
 echo raspberry | sudo -v -S
 export CI=$CI
 export GITHUB_REF=$GITHUB_REF
-./easyinstall.sh --headless --cores=16 --run_choice=99
+./easyinstall.sh --headless --cores=16 --run_choice=1
 echo "easyinstal exited: $?"
 EOF
