@@ -31,8 +31,4 @@ export GITHUB_REF=$GITHUB_REF
 ./easyinstall.sh --headless --cores=16 --run_choice=1
 echo "easyinstal exited: $?"
 
-## TEMPORARY
-pushd ~/piscsi/python/web
-sudo pip3 download -r ./requirements.txt
-popd
 EOF
